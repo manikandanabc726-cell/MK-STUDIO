@@ -1,0 +1,242 @@
+<!-- =========================
+FILE: index.html
+========================= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MK Studio</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Background Glow -->
+  <div class="bg-glow glow1"></div>
+  <div class="bg-glow glow2"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">
+      MK <span>Studio</span>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="menu-btn">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+
+    <div class="hero-text"
+      <h1>
+   We Build <span>Modern</span><br>
+  Websites For Your Business
+</h1>
+
+<h3 class="typing-text">
+  <span id="typed"></span>
+</h3>
+
+      <p>
+        MK Studio creates attractive full stack websites
+        with premium UI, smooth animations, and mobile responsive design.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn btn2">Hire Me</a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <div class="circle"></div>
+
+      <img src="m.png">
+    </div>
+
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+
+    <h2 class="section-title">Our Services</h2>
+
+    <div class="service-container">
+
+      <div class="service-card">
+        <i class="fa-solid fa-code"></i>
+        <h3>Website Development</h3>
+        <p>
+          Modern and responsive websites with premium UI.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <h3>E-Commerce</h3>
+        <p>
+          Shopping websites with cart and payment integration.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <i class="fa-solid fa-mobile-screen"></i>
+        <h3>Responsive Design</h3>
+        <p>
+          Perfect design for mobile, tablet, and desktop.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <i class="fa-solid fa-layer-group"></i>
+        <h3>Full Stack Apps</h3>
+        <p>
+          Frontend + Backend complete web applications.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills">
+
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skill">
+      <p>HTML</p>
+      <div class="bar">
+        <span style="width:95%"></span>
+      </div>
+    </div>
+
+    <div class="skill">
+      <p>CSS</p>
+      <div class="bar">
+        <span style="width:90%"></span>
+      </div>
+    </div>
+
+    <div class="skill">
+      <p>JavaScript</p>
+      <div class="bar">
+        <span style="width:85%"></span>
+      </div>
+    </div>
+
+    <div class="skill">
+      <p>React</p>
+      <div class="bar">
+        <span style="width:75%"></span>
+      </div>
+    </div>
+
+
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+
+    <h2 class="section-title">Projects</h2>
+
+    <div class="project-container">
+
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30">
+        <div class="project-content">
+          <h3>Watch Store</h3>
+          <p>E-commerce website with modern UI.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+        <div class="project-content">
+          <h3>Portfolio Website</h3>
+          <p>Creative portfolio for developers.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f">
+        <div class="project-content">
+          <h3>Business Website</h3>
+          <p>Professional responsive business website.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+<section class="contact" id="contact">
+
+  <h2 class="section-title">Contact Us</h2>
+
+  <div class="contact-form">
+
+    <input type="text" id="name" placeholder="Your Name">
+
+    <input type="email" id="email" placeholder="Your Email">
+
+    <textarea id="message"
+    rows="6"
+    placeholder="Your Message"></textarea>
+
+    <button id="sendBtn">
+      Send Message
+    </button>
+    <div class="hero-buttons">
+
+  <a href="about.html" class="btn btn2">
+    About Me
+  </a>
+
+</div>
+
+  </div>
+
+</section>
+  <!-- FOOTER -->
+  <footer>
+
+    <h2>MK Studio</h2>
+
+    <div class="socials">
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-whatsapp"></i>
+      <i class="fa-brands fa-github"></i>
+    </div>
+
+    <p>© 2026 MK Studio | All Rights Reserved</p>
+
+  </footer>
+  <!-- WHATSAPP FLOATING BUTTON -->
+
+<a
+href="https://wa.me/9047465713"
+class="whatsapp-float"
+target="_blank"
+>
+
+<i class="fa-brands fa-whatsapp"></i>
+
+</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
